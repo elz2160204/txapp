@@ -1,0 +1,59 @@
+"api_url": [
+    "http://api.d05308ee20842eb9.com/cxapi",
+    "http://api.5292997bebcf8aea.com/cxapi",
+    "http://api.8ebe288ee10c0d45.com/cxapi",
+    "http://api.32092345ec6c81f5.com/cxapi",
+    "http://api.acaa0272469c5c16.com/cxapi",
+    "http://api.ykkilavd.com/cxapi",
+    "http://api.abzrzylk.com/cxapi",
+    "http://api.wwscmafa.com/cxapi"
+],
+"domains": [
+    "https://zljq-ii.orzxkiep.com",
+    "https://xzdk-lz.ucyjkvmx.com",
+    "https://sqxe-ou.lwjjqdrt.com"
+],
+
+# m3u8链接
+POST /cxapi/movie/detail HTTP/1.1
+{'token': 'md5_uid', 'deviceId': 'db82f4cf99711dab', 'language': 'zh', 'data': {'id': '7776'}}
+{"token":"md5_uid","deviceId":"db82f4cf99711dab","language":"zh","data":{"id":"31627"}}
+
+
+# 尤物圈
+POST /cxapi/movie/block HTTP/1.1
+{'token': 'md5_uid', 'deviceId': 'db82f4cf99711dab', 'language': 'zh', 'data': {'page': 1, 'position': 'app_dark_tj'}}
+"filter": "app_dark_tj",
+"filter": "app_dark_hljm",
+"filter": "app_dark_sbpj",
+"filter": "app_dark_cnrq",
+"filter": "app_dark_jcll",
+"filter": "app_dark_sub",
+"filter": "app_dark_nhf",
+
+
+POST /cxapi/movie/search HTTP/1.1
+{'token': 'md5_uid', 'deviceId': 'db82f4cf99711dab', 'language': 'zh', 'data': {'page': 1, 'keywords': 'cos', 'position': 'normal'}}
+{'token': 'md5_uid', 'deviceId': 'db82f4cf99711dab', 'language': 'zh', 'data': {'page': 1, 'ad_code': 'app_video_list', 'page_size': '24', 'not_ids': 34260, 'order': 'rand', 'home_id': '112392395'}}
+
+
+POST /cxapi/download/do HTTP/1.1
+{"token":"md5_uid","deviceId":"db82f4cf99711dab","language":"zh","data":{"id":"25392"}}
+{"token":"md5_uid","deviceId":"db82f4cf99711dab","language":"zh","data":{"id":"26216"}}
+{"status":"n","error":"\u60a8\u672c\u5468\u4e0b\u8f7d\u6b21\u6570\u5df2\u7ecf\u7528\u5b8c!","errorCode":2001}
+{"status":"n","error":"\u4e0b\u8f7d\u53ea\u5bf9VIP\u7528\u6237\u5f00\u653e!","errorCode":2001}
+
+
+POST /cxapi/user/info HTTP/1.1
+{'token': 'md5_uid', 'deviceId': 'db82f4cf99711dab', 'language': 'zh', 'data': {}}
+
+
+POST /cxapi/system/info HTTP/1.1
+{'token': 'null_null', 'deviceId': 'db82f4cf99711dab', 'language': 'zh', 'data': {'app_code': 'ch1', 'clipboard_text': '', 'country': 'CN', 'channel_code': '', 'captcha_key': None, 'captcha_value': None}}
+
+# 注册
+POST /cxapi/user/findByAccount HTTP/1.1
+{'token': 'md5_uid', 'deviceId': 'db82f4cf99711dab', 'language': 'zh', 'data': {'account_name': 'xxx', 'account_password': 'xxx', 'type': 'register'}}
+
+
+
